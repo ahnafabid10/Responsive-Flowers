@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared Style  */
+
+.color-black{
+    color: black;
+}
+
+.color-orange{
+    color: #E95A08;
+}
+
+.color-grey{
+    font-size: 1.35rem;
+    font-family: 'Inter';
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* span section  */
+
+.home{
+    color: #252432;
+    font-weight: 600;
+}
+
+.shop{
+    color: #8987A1;
+}
+
+/* Header Section Style  */
+
+/* Nav Section Style  */
+
+.navbar{
+    padding: 30px 150px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    font-size: 1.50rem;
+    display: flex;
+    gap: 48px;
+    
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+/* Banner Section Style  */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 120px 150px;
+    align-items: end;
+
+}
+
+.banner-container{
+    max-width: 600px;
+    align-items: end;
+    
+}
+
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Main Section  */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
