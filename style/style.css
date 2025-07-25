@@ -49,7 +49,7 @@
 /* Nav Section Style  */
 
 .navbar{
-    padding: 30px 150px 120px;
+    padding: 30px 300px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +74,7 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 150px 120px 300px;
+    margin: 0 300px 120px 300px;
     align-items: end;
 
 }
