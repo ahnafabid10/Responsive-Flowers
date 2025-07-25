@@ -3,7 +3,15 @@
     padding: 0;
 }
 
+.noto-sans-font {
+  font-family: "Raleway", sans-serif; 
+}
+
 /* Shared Style  */
+
+.display-flex{
+    display: flex;
+}
 
 .color-black{
     color: black;
@@ -42,7 +50,7 @@
 /* Nav Section Style  */
 
 .navbar{
-    padding: 30px 150px 120px;
+    padding: 30px 225px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +75,7 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 150px 120px 150px;
+    margin: 0 225px 120px 225px;
     align-items: end;
 
 }
@@ -89,7 +97,7 @@ nav ul li a{
 main{
     max-width: 1440px;
     margin: 0 auto;
-    /* margin-top: 120px; */
+    /* border: 1px solid tomato; */
 }
 
 /* Our Plants Section  */
@@ -115,6 +123,8 @@ main{
     grid-template-columns: repeat(4, 1fr);
     margin-top: 49px;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .plants-card{
@@ -150,6 +160,50 @@ main{
 
 /* Flower & Plants Lover Section */
 
+.flower-lover{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
 .flower-trust-badge{
     max-width: 290px;
+    width: 50%;
+    position: relative;
+    margin-bottom: -180px;
+    margin-right: -200px;
+    margin-left: 400px;
+    
+}
+
+.flower-lover-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower-lover-image{
+    width: 580px;
+    margin-right: 150px;
+
+}
+
+.flower-lover-container{
+    width: 650px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.flower-lover-title{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+
+
+.flower-lover-container ul li{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-family: 'Inter';
+
 }
