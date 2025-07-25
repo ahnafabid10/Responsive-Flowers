@@ -229,7 +229,6 @@ main{
     max-width: 1240px;
     justify-content: space-between;
     margin: 0 auto;
-    border: 1px solid;
 }
 
 
@@ -272,6 +271,9 @@ main{
 
 .latest-deals-offer-02{
     position: relative;
+}
+.latest-deals-offer-02 img{
+    border-radius: 20px;
 }
 
 .offer-25-content{
