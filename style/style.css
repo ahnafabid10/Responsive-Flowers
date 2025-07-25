@@ -208,6 +208,10 @@ main{
 
 /* Latest  Deals Section  */
 
+.Latest-deals{
+    margin-bottom: 120px;
+}
+
 
 .latest-deals-container{
     text-align: center;
@@ -297,4 +301,48 @@ main{
 
 .offer-25-link a{
     color: white;
+}
+
+/* Newsletter Section  */
+
+.newsletter{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 199px 305px 193px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.newsletter h3{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.newsletter-container{
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-email{
+    padding: 16px 540px 16px 20px;
+    font-family: 'Inter';
+    font-size: 1rem;
+    color: black;
+    border: none;
+}
+
+.subscribe{
+    padding: 17px 25px 17px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter';
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    margin-left: -131px;
+    cursor: pointer;
 }
