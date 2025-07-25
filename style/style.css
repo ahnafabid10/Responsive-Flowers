@@ -446,7 +446,6 @@ main{
     .offer-60-Off-image{
         width: 360px;
     }
-    }
     .latest-deals-offer-02 img{
         width: 360px;
         height: 202px;
@@ -494,7 +493,7 @@ main{
     }
     .footer-section{
         flex-direction: column;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
     .footer-container{
         margin-bottom: 20px;
