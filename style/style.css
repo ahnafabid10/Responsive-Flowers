@@ -9,6 +9,7 @@
 
 /* Shared Style  */
 
+
 .display-flex{
     display: flex;
 }
@@ -244,6 +245,7 @@ main{
 .offer-60-Off{
     width: 370px;
     border-radius: 10px;
+    /* background-image: url(../assets/deal-bloom.png); */
 }
 
 .offer-60-Off-image{
@@ -346,3 +348,41 @@ main{
     margin-left: -131px;
     cursor: pointer;
 }
+
+/* Footer section  */
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-container{
+    width: 359px;
+    margin-right: 110px;
+}
+.footer-container img{
+    margin-bottom: 16px;
+}
+
+.foot-navbar01 ul li, .foot-navbar02 ul li{
+    list-style: none;
+    margin-right: 110px;
+    margin-bottom: 32px;
+}
+.foot-navbar01 ul li a, .foot-navbar02 ul li a{
+    color: rgba(107, 114, 128, 1) ;
+    text-decoration: none;
+}
+
+.social-media{
+    width: 216px;
+    height: 36px;
+    display: flex;
+    gap: 16px;
+}
+
