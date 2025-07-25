@@ -407,11 +407,13 @@ main{
     }
     .plants-cards{
         grid-template-columns: repeat(2,1fr);
+        margin-bottom: 80px;
     }
     .plants-card{
         width: 150px;
         height: 340px;
         padding-left:25px ;
+        margin-bottom: 25px;
     }
     .plants-card img{
         width: 150px;
@@ -493,6 +495,9 @@ main{
     .newsletter-email{
         width: 300px;
         margin-left:50px;
+    }
+    .subscribe{
+        position: absolute;
     }
     .footer-section{
         flex-direction: column;
