@@ -400,17 +400,22 @@ main{
     .banner-container{
         padding: 0px 16px 28px;
     }
+
     .our-plants-container{
         margin-top: 80px;
         padding: 20px ;
     }
     .plants-cards{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .plants-card{
-        width: 170px;
+        width: 150px;
         height: 340px;
-
+        padding-left:25px ;
+    }
+    .plants-card img{
+        width: 150px;
+        height: 170px;
     }
 
     .flower-lover{
@@ -472,10 +477,6 @@ main{
         width: 100%;
         padding: 110px 0px 65px 0px;
     }
-
-    /* .newsletter h3, .newsletter-email{
-        width: 330px;
-    } */
 
     .newsletter h3{
         font-size: 1.5rem;
