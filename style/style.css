@@ -387,13 +387,11 @@ main{
 
     .navbar{
         padding: 10px;
-        border: 1px solid tomato;
     }
     .banner{
         flex-direction: column-reverse;
         margin: 0 auto;
         gap: 28px;
-        border: 1px solid tomato;
     }
     .banner-container{
         padding: 0px 16px 28px;
@@ -402,34 +400,28 @@ main{
     .our-plants-container{
         margin-top: 80px;
         padding: 20px ;
-        border: 1px solid tomato;
     }
     .plants-cards{
         grid-template-columns: repeat(2,1fr);
         margin-bottom: 80px;
-        border: 1px solid tomato;
     }
     .plants-card{
         width: 150px;
         height: 340px;
         padding-left:25px ;
         margin-bottom: 25px;
-        border: 1px solid tomato;
     }
     .plants-card img{
         width: 150px;
         height: 170px;
-        border: 1px solid tomato;
     }
 
     .flower-lover{
         margin: 0 auto;
-        border: 1px solid tomato;
     }
     .flower-lover-section{
         max-width: 100%;
         flex-direction: column;
-        border: 1px solid tomato;
     }
     .flower-lover-image{
         width: 100%;
@@ -438,20 +430,16 @@ main{
     }
     .flower-lover-container{
         padding: 25px;
-        border: 1px solid tomato;
     }
     .latest-deals-container{
         width: 100%;
         margin-top: 100px;
-        border: 1px solid tomato;
     }
     .latest-deals-description{
         width: 330px;
-        border: 1px solid tomato;
     }
     .latest-deals-offer{
         flex-direction: column;
-        border: 1px solid tomato;
     }
     .offer-60-Off-image{
         width: 360px;
@@ -459,14 +447,12 @@ main{
     .latest-deals-offer-02{
         width: 350px;
         height: 200px;
-        border: 1px solid tomato;
     }
     .latest-deals-offer-02 img{
         width: 355px;
         height: 202px;
         margin-top: 20px;
         margin-bottom: 40px;
-        border: 1px solid tomato;
     }
     .offer-25-content{
         position: absolute;
@@ -489,7 +475,6 @@ main{
     .newsletter{
         width: 100%;
         padding: 110px 0px 65px 0px;
-        border: 1px solid tomato;
     }
 
     .newsletter h3{
@@ -511,7 +496,6 @@ main{
     .footer-section{
         flex-direction: column;
         padding-left: 10px;
-        border: 1px solid tomato;
     }
     .footer-container{
         margin-bottom: 20px;
