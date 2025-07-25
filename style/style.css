@@ -224,8 +224,9 @@ main{
 }
 
 .latest-deals-offer{
-    max-width: 1240px;
+    max-width: 1140px;
     justify-content: space-between;
+    display: flex;
     margin: 0 auto;
 }
 
@@ -449,7 +450,7 @@ main{
         height: 200px;
     }
     .latest-deals-offer-02 img{
-        width: 355px;
+        width: 360px;
         height: 202px;
         margin-top: 20px;
         margin-bottom: 40px;
