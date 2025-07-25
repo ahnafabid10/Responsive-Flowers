@@ -237,7 +237,7 @@ main{
     gap: 20px;
 }
 .offer-60-Off{
-    width: 370px;
+    width: 360px;
     border-radius: 10px;
     /* background-image: url(../assets/deal-bloom.png); */
 }
@@ -441,13 +441,11 @@ main{
     }
     .latest-deals-offer{
         flex-direction: column;
+        align-items: center;
     }
     .offer-60-Off-image{
         width: 360px;
     }
-    .latest-deals-offer-02{
-        width: 350px;
-        height: 200px;
     }
     .latest-deals-offer-02 img{
         width: 360px;
