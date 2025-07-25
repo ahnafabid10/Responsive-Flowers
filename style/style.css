@@ -450,7 +450,6 @@ main{
     }
     .latest-deals-offer{
         flex-direction: column;
-        margin-left: 25px;
         border: 1px solid tomato;
     }
     .latest-deals-offer-02{
