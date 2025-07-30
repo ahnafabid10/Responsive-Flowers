@@ -494,7 +494,7 @@ main{
     }
     .footer-section{
         flex-direction: column;
-        /* padding-left: 10px; */
+        padding-left: 10px;
     }
     .footer-container{
         margin-bottom: 20px;
