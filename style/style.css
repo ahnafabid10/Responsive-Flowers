@@ -49,7 +49,7 @@
 /* Nav Section Style  */
 
 .navbar{
-    padding: 30px 300px 120px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +74,7 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 300px 120px 300px;
+    margin: 120px 0px 120px 0px;
     align-items: end;
 
 }
@@ -93,7 +93,7 @@ nav ul li a{
 
 /* Main Section  */
 
-main{
+header, main{
     max-width: 1140px;
     margin: 0 auto;
     /* border: 1px solid tomato; */
